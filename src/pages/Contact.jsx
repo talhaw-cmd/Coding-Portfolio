@@ -33,7 +33,7 @@ const Contact = () => {
     <div className="contact-page">
       <div className="container">
         <header className="contact-hero">
-          <div className="intro-label">06 / CONTACT</div>
+          <div className="intro-label">01 / CONTACT</div>
           <h1 className="page-title">LET'S START <br/> A <span className="outline-text">PROJECT</span></h1>
         </header>
 

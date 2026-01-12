@@ -63,7 +63,7 @@ id: "03",
     <div className="projects-page">
       <div className="container">
         <header className="projects-hero">
-          <div className="intro-label">ARCHIVE / 2022 — 2026</div>
+          <div className="intro-label">01 / ARCHIVE / 2022 — 2026</div>
           <h1 className="page-title">WORKS <br/> GALLERY</h1>
         </header>
 
