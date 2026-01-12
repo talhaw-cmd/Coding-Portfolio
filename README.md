@@ -30,11 +30,7 @@ This project follows a **Swiss Design philosophy** — focusing on clarity, stru
 ## 🛠️ Tech Stack
 
 - **Frontend:** React.js  
-- **Styling:** Custom CSS3 (Variables, Grid, Flexbox)  
-- **APIs:**  
-  - OpenWeather API  
-  - Fetch API  
-  - Web Audio API  
+- **Styling:** Custom CSS3 (Variables, Grid, Flexbox)   
 - **Deployment:** Vercel / Netlify / GitHub Pages  
 
 ---
@@ -70,9 +66,3 @@ This project follows a **Swiss Design philosophy** — focusing on clarity, stru
   Learning, refining, and adapting to modern frontend practices.
 
 ---
-
-## ⚙️ Installation & Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/Coding-Portfolio.git
