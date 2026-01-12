@@ -118,3 +118,7 @@
     font-size: 3.5rem;
   }
 }
+.submit-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
