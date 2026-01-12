@@ -1,0 +1,135 @@
+/* About Page Specific Styles */
+.about-page {
+  padding-top: 120px;
+  background-color: #ffffff;
+}
+
+/* Big Hero Statement */
+.about-hero {
+  padding-bottom: 80px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.about-statement {
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  line-height: 1.1;
+  font-weight: 800;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+}
+
+/* Story Section */
+.about-story {
+  padding: 100px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 60px;
+  align-items: center;
+}
+.story-image{
+  /* background: #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.placeholder-box {
+  width: 70%;
+  aspect-ratio: 1/1;
+  /* background: #000; */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  /* overflow: hidden; */
+}
+
+.lead-p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.story-text p:not(.lead-p) {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+/* Values Grid */
+.values-section {
+  padding: 100px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.value-card {
+  padding: 40px;
+  border: 1px solid #000;
+  transition: 0.3s ease;
+}
+
+.value-card:hover {
+  background: #000;
+  color: #fff;
+}
+
+.value-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/* Timeline */
+.timeline-section {
+  padding: 100px 0;
+}
+
+.timeline-row {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 30px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.time-year {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.time-event h3 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.time-event p {
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 850px) {
+  .story-grid {
+    grid-template-columns: 1fr;
+  }
+  .timeline-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
