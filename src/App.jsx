@@ -9,7 +9,6 @@ import Contact from './pages/Contact.jsx'
 import "./App.css"
 const App = () => {
 const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     const handleLoad = () => {
       setTimeout(() => setLoading(false), 500);
