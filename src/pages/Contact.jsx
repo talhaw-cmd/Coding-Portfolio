@@ -48,9 +48,9 @@ const Contact = () => {
             <div className="info-group">
               <h3 className="info-label">Social</h3>
               <ul className="social-links">
-                <li><a target='_blank' rel="noreferrer" href="YOUR_LINKEDIN_URL">LinkedIn</a></li>
+                <li><a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/m-talha-9244a23a0/">LinkedIn</a></li>
                 <li><a target='_blank' rel="noreferrer" href="https://github.com/talhaw-cmd/">GitHub</a></li>
-                <li><a target='_blank' rel="noreferrer" href="https://www.threads.com/@talhadevs">Twitter</a></li>
+                <li><a target='_blank' rel="noreferrer" href="https://www.threads.com/@talhadevs">Threads</a></li>
                 <li><a target='_blank' rel="noreferrer" href="https://www.instagram.com/talhadevs">Instagram</a></li>
               </ul>
             </div>

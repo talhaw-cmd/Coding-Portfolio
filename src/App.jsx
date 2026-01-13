@@ -28,17 +28,18 @@ const [loading, setLoading] = useState(true);
           <div className="loader-bar"></div>
         </div>
       ) : (
-        <div className="app-content fade-in">
     <BrowserRouter>
     <Navbar />
+        <div className="app-content fade-in">
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/About" element={<About/>}/>
       <Route path="/Projects" element={<Projects/>}/>
       <Route path="/Contact" element={<Contact/>}/>
     </Routes>
-  </BrowserRouter>
   </div>
+
+  </BrowserRouter>
       )}
     </>
   )
