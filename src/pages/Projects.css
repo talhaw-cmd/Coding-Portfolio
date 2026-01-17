@@ -165,7 +165,7 @@ img{
 /* Archive Section Styling */
 .archive-section {
   padding: 80px 0;
-  border-top: 2px solid #000;
+  border-top: 1px solid #e5e5e5;
 }
 
 .archive-table {
@@ -190,7 +190,9 @@ img{
   padding: 25px 0;
   border-bottom: 1px solid #e5e5e5;
   transition: 0.3s ease;
-  cursor: crosshair; /* Adds a nice "designer" touch */
+}
+.a:hover{
+  cursor: pointer;
 }
 
 .table-row:hover {

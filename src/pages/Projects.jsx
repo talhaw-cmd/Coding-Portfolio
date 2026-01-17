@@ -48,11 +48,11 @@ id: "03",
     code: "https://github.com/talhaw-cmd/react-weather-app",
     image: meteorology
   },
-  { id: "04", title: "HADITH APP", cat: "Religious Tech", year: "2025", tech: "React, JSON API", featured: false },
-  { id: "05", title: "QURAN APP", cat: "Religious Tech", year: "2025", tech: "React, API", featured: false },
-  { id: "06", title: "IMAGE FINDER", cat: "Utility", year: "2025", tech: "React,s API", featured: false },
-  { id: "07", title: "TODO APP", cat: "Productivity", year: "2025", tech: "React, Local Storage", featured: false },
-  { id: "08", title: "PORTFOLIO", cat: "Personal", year: "2025", tech: "HTML, CSS, JS", featured: false },
+  { id: "04",live: "https://react-hadith-app.vercel.app/", title: "HADITH APP", cat: "Religious Tech", year: "2025", tech: "React, JSON API", featured: false },
+  { id: "05",live: "https://react-quran-app-xi.vercel.app/", title: "QURAN APP", cat: "Religious Tech", year: "2025", tech: "React, API", featured: false },
+  { id: "06",live: "https://react-image-finder-nine.vercel.app/", title: "IMAGE FINDER", cat: "Utility", year: "2025", tech: "React,s API", featured: false },
+  { id: "07",live: "https://react-todo-app-mu-ten.vercel.app/", title: "TODO APP", cat: "Productivity", year: "2025", tech: "React, Local Storage", featured: false },
+  { id: "08",live: "https://designlab-taupe.vercel.app/", title: "PORTFOLIO", cat: "Personal", year: "2025", tech: "HTML, CSS, JS", featured: false },
 ];
 
   const featured = allProjects.filter(p => p.featured);
@@ -109,12 +109,14 @@ id: "03",
               <span>Year</span>
             </div>
             {archive.map((p, i) => (
-              <div key={i} className="table-row">
+              <a target='blank' key={i} className='a' href={p.live}>
+              <div className="table-row">
                 <span className="row-title">{p.title}</span>
                 <span className="row-cat hide-mobile">{p.cat}</span>
                 <span className="row-tech hide-mobile">{p.tech}</span>
                 <span className="row-year">{p.year}</span>
               </div>
+              </a>
             ))}
           </div>
         </section>
