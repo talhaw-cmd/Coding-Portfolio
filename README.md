@@ -1,6 +1,6 @@
 # Minimalist Coding Portfolio — 2026
 
-A high-end, high-contrast **Black & White** developer portfolio built with **https://github.com/talhaw-cmd/Coding-Portfolio/raw/refs/heads/main/src/assets/Coding-Portfolio-1.8.zip**.  
+A high-end, high-contrast **Black & White** developer portfolio built with **React.js**.  
 This project follows a **Swiss Design philosophy** — focusing on clarity, structure, typography, and purpose-driven UI to present professional frontend development work.
 
 ---
@@ -29,7 +29,7 @@ This project follows a **Swiss Design philosophy** — focusing on clarity, stru
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** https://github.com/talhaw-cmd/Coding-Portfolio/raw/refs/heads/main/src/assets/Coding-Portfolio-1.8.zip  
+- **Frontend:** React.js  
 - **Styling:** Custom CSS3 (Variables, Grid, Flexbox)   
 - **Deployment:** Vercel / Netlify / GitHub Pages  
 
