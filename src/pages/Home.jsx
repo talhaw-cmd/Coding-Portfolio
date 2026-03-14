@@ -5,18 +5,11 @@ import Footer from '../components/Footer';
 const App = () => {
     const projects = [
   {
-    title: "Weather App",
+    title: "DastarKhawan",
     category: "Front-end Development, APIs",
     year: "2025",
-    description: "A high-performance DastarKhawwan App built with React.",
+    description: "A high-performance DastarKhawan App built with React.",
     link: "https://dastar-khawan-app.vercel.app/"
-  },
-  {
-    title: "Todo App",
-    category: "Front-end Developement",
-    year: "2025",
-    description: "A Todo app using local storage.",
-    link: "https://react-todo-app-mu-ten.vercel.app/"
   },
   {
     title: "Quiz App",
@@ -24,7 +17,14 @@ const App = () => {
     year: "2025",
     description: "A simple quiz app eith a short timer and which contain random questions.",
     link: "https://react-quiz-app-wine-two.vercel.app/"
-  }
+  },
+    {
+    title: "Food App",
+    category: "Front-end Developement",
+    year: "2025",
+    description: "A Food app using local storage.",
+    link: "https://foodies-app-self-eight.vercel.app/"
+  },
 ];
   const skills = [
     'React.js', 'JavaScript (ES6+)', 'Node.js', 
