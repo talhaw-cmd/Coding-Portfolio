@@ -12,14 +12,14 @@ const App = () => {
     link: "https://dastar-khawan-app.vercel.app/"
   },
   {
-    title: "Quiz App",
+    title: "Food-craving-Recipe App",
     category: "Front-end Developement",
     year: "2025",
-    description: "A simple quiz app eith a short timer and which contain random questions.",
-    link: "https://react-quiz-app-wine-two.vercel.app/"
+    description: "A simple and minimalist food recipe app.",
+    link: "https://react-food-cravings.vercel.app/"
   },
     {
-    title: "Food App",
+    title: "Foodies App",
     category: "Front-end Developement",
     year: "2025",
     description: "A Food app using local storage.",
