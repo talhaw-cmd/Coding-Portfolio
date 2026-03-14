@@ -8,8 +8,8 @@ const App = () => {
     title: "Weather App",
     category: "Front-end Development, APIs",
     year: "2025",
-    description: "A high-performance Weather App built with React.",
-    link: "https://react-weather-app-six-rho.vercel.app/"
+    description: "A high-performance DastarKhawwan App built with React.",
+    link: "https://dastar-khawan-app.vercel.app/"
   },
   {
     title: "Todo App",
