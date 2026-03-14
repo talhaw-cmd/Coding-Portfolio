@@ -31,8 +31,8 @@ const allProjects = [
     featured: true, 
     desc: "A comprehensive recipe finder that allows users to explore diverse cuisines with detailed ingredient lists and cooking instructions.", 
     outcome: "Integrated a high-speed search algorithm to filter through thousands of recipes instantly.",
-    live: "https://foodies-app-self-eight.vercel.app/",
-    code: "https://github.com/talhaw-cmd/foodies-app",
+    live: "https://react-food-cravings.vercel.app/",
+    code: "https://github.com/talhaw-cmd/react-food-cravings",
     image: restaurant
   },
   { 
