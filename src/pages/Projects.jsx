@@ -11,15 +11,15 @@ const Projects = () => {
 const allProjects = [
   { 
     id: "01", 
-    title: "QUIZ APP", 
-    cat: "Education", 
+    title: "Foodies APP", 
+    cat: "Food", 
     year: "2026", 
     tech: "React, CSS3", 
     featured: true, 
-    desc: "A dynamic quiz platform featuring random question generation and an integrated countdown timer for an engaging user experience.", 
+    desc: "A dynamic clone of foodpanda app.", 
     outcome: "Built with optimized state management for zero-lag transitions.",
-    live: "https://react-quiz-app-wine-two.vercel.app/",
-    code: "https://github.com/talhaw-cmd/react-quiz-app",
+    live: "https://foodies-app-self-eight.vercel.app/",
+    code: "https://github.com/talhaw-cmd/foodies-app",
     image: quiz
   },
   { 
@@ -38,7 +38,7 @@ const allProjects = [
   { 
 id: "03", 
     title: "DastarKhawan", 
-    cat: "Utility", 
+    cat: "Restaurant", 
     year: "2025", 
     tech: "React, API", 
     featured: true, 
